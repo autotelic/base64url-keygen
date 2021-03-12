@@ -1,0 +1,27 @@
+{
+  "name": "base64url-keygen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "concurrently \"beefy index.js\" \"sleepms 1000 && open http://localhost:9966/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autotelic/base64url-keygen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autotelic/base64url-keygen/issues"
+  },
+  "homepage": "https://github.com/autotelic/base64url-keygen#readme",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "beefy": "^2.1.8",
+    "browserify": "^17.0.0",
+    "concurrently": "^6.0.0",
+    "sleep-ms": "^2.0.1"
+  }
+}
